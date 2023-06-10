@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body > header {
+  padding: 16px;
+  background-color: dodgerblue;
+  color: white
+}
+
+header a {
+  color: white;
+}
+
+img {  
+  max-width: 20%;  
+  height: auto;  
+}
+
+main {
+  padding: 25px 50px 75px 100px;
+}
+
+#comment {
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
+}
+
+#commentsubmit {
+  float: right;
+}
+
+#profilepicture {
+  max-width: 10%;  
+  height: auto;  
+}
+
+footer {
+  background-color: dodgerblue;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
